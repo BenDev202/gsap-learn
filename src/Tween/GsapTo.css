@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #000;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+
+}
+
+.box.gradient-green {
+  background: linear-gradient(45deg, #00ff00, #006400);
+}
+
+.box.gradient-blue {
+  background: linear-gradient(45deg, #0000ff, #00008b);
+}
+
+.box.gradient-purple {
+  background: linear-gradient(45deg, #800080, #4b0082);
+}
