@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+node_modules
+.DS_Store
+dist
+.env
+.env.*
+*.local
+*.log
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
